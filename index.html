@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stilus.css">
+    <title>Regisztráció</title>
+</head>
+<body>
+    <div class="elem" id="elem">
+        <div class="felso">
+            <h1>Fiók létrehozása</h1>
+        </div>
+        <form class="also" onclick="return false">
+            <div class="fnev">
+                <span id="fnevs">Felhasználónév</span>
+                <input id="fnev" type="text" autocomplete="off">
+            </div>
+            <div class="email">
+                <span id="emails">Email cím</span>
+                <input id="email" type="text" autocomplete="off">
+            </div>
+            <div class="jszo">
+                <span id="jszos">Jelszó</span>
+                <input id="jszo" type="password">
+                <span id="fe-gomb" onclick="fe()">Felfed</span>
+            </div>
+            <div class="gomb">
+                <div class="regi">
+                    <button id="regi">Regisztrálás</button>
+                    <p>Még nem rendelkezel fiókkal?</p>
+                </div>
+                <div class="bej">
+                    <button id="bej">Bejelentkezés</button>
+                    <p>Már rendelkezel fiókkal?</p>    
+                </div>
+                
+            </div>
+        </form>
+    </div>
+    <script src="kod.js"></script>
+</body>
+</html>
