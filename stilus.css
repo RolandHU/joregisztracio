@@ -1,0 +1,206 @@
+@font-face {
+    font-family: robotob;
+    src: url("robotob.ttf");
+}
+
+@font-face {
+    font-family: robotor;
+    src: url("robotor.ttf");
+}
+
+@keyframes fel {
+    0% {transform: translateY(0px);}
+    25% {transform: translateY(0px);}
+    50% {transform: translateY(-19px);}
+    100% {transform: translateY(-19px);}
+}
+
+@keyframes le {
+    0% {transform: translateY(0px);}
+    25% {transform: translateY(0px);}
+    50% {transform: translateY(19px);}
+    100% {transform: translateY(19px);}
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    font-family: robotor;
+    font-size: 15px;
+    background: url("levelek.jpg");
+    background-size: cover;
+}
+
+.elem {
+    z-index: 1;
+    width: 500px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 15px rgba(0, 0, 0, 0.4);
+    background: white;
+}
+
+.felso {
+    display: flex;
+    justify-content: center;
+    color: rgb(24, 112, 184);
+}
+
+.fnev {
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#fnevs {
+    z-index: -1;
+    position: absolute;
+    top: 11px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 10px;
+    color: gray;
+    background: white;
+    animation: none;
+}
+
+.email {
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#emails {
+    z-index: -1;
+    position: absolute;
+    top: 11px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 10px;
+    color: gray;
+    background: white;
+    animation: none;
+}
+
+.jszo {
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#jszos {
+    z-index: -1;
+    position: absolute;
+    top: 11px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 10px;
+    color: gray;
+    background: white;
+    animation: none;
+}
+
+#jszo {
+    padding-right: 66px;
+}
+
+#fe-gomb {
+    position: absolute;
+    right: 0px;
+    top: 11px;
+    margin-right: 18px;
+    color: gray;
+    user-select: none;
+}
+
+#fe-gomb:hover {
+    cursor: pointer;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    padding-left: 16.5px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background: transparent;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid rgb(24, 112, 184);
+}
+
+.gomb {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.gomb p {
+    font-size: 13px;
+}
+
+.regi {
+    width: 50%;
+    margin-right: 5px;
+    text-align: center;
+}
+
+#regi {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgb(24, 112, 184);
+    border-radius: 10px;
+    background: rgb(24, 112, 184);
+    font-family: robotor;
+    font-size: 15px;
+    color: white;
+}
+
+#regi:hover {
+    cursor: pointer;
+    border-color: white;
+    background: rgb(24, 112, 184);
+}
+
+#regi:active {
+    border-color: white;
+    background: rgb(24, 112, 184);
+}
+
+.bej {
+    width: 50%;
+    margin-left: 5px;
+    text-align: center;
+}
+
+#bej {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgb(24, 112, 184);
+    border-radius: 10px;
+    background: rgb(24, 112, 184);
+    font-family: robotor;
+    font-size: 14px;
+    color: white;
+}
+
+#bej:hover {
+    cursor: pointer;
+    border-color: white;
+    background: rgb(24, 112, 184);
+}
+
+#bej:active {
+    border-color: white;
+    background: rgb(24, 112, 184);
+}
